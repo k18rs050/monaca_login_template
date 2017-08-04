@@ -37,12 +37,14 @@ MonacaでgithubのURL（　https://github.com/ncmbadmin/monaca_login_template/ar
 
 * Monaca環境
 * ニフティクラウドmobile backendを利用するために必要なJavaScript SDKは、下記の方法で導入済みです。
-  - 「設定」＞「JS/CSSコンポーネント追加と削除」をクリック
+  - Monaca 画面上部にある「設定」＞「JS/CSSコンポーネント追加と削除」をクリック
   - 「ncmb」を入力して｢検索｣ボタンを押す
   - 「追加｣ボタンを押す
   -  最新バージョンを選択し ｢インストール開始｣ボタンを押す
-  -  ローダーの設定は｢components/ncmb/min.js｣にチェックし｢OK｣ボタンを押す 
+  -  ローダーの設定は｢components/ncmb/min.js｣にチェックし｢OK｣ボタンを押す
   -  "JS/CSSコンポーネントをプロジェクトに追加しました。" 確認の｢OK｣ボタンを押す
+
+※ 詳細は[イントロダクション (Monaca) : クイックスタート](http://mb.cloud.nifty.com/doc/current/introduction/quickstart_monaca.html)をご参照ください
 
 ## Installation
 
