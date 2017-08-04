@@ -24,12 +24,19 @@ function onRegisterBtn()
     user.set("userName", username)
         .set("password", password);
     
-    // 任意フィールドに値を追加 
+    // ユーザー名とパスワードで新規登録
     user.signUpByAccount()
-        .then(function(user) {
-            alert("新規登録に成功");
-            currentLoginUser = ncmb.User.getCurrentUser();
-            $.mobile.changePage('#DetailPage');
+        .then(function(reg_user) {
+            // 新規登録したユーザーでログイン
+            ncmb.User.login(reg_user)
+                     .then(function(login_user) {
+                         alert("新規登録とログイン成功");
+                         currentLoginUser = ncmb.User.getCurrentUser();
+                     　  $.mobile.changePage('#DetailPage');
+                     })
+                     .catch(function(error) {
+                         alert("ログイン失敗！次のエラー発生: " + error);
+                     });
         })
         .catch(function(error) {
             alert("新規登録に失敗！次のエラー発生：" + error);
