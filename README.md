@@ -1,4 +1,4 @@
-﻿# Monaca x NIFTY Cloud mobile backend 会員ログインサンプル
+﻿# Monaca x NIFCloud mobile backend 会員ログインサンプル
 
 ===
 
@@ -6,7 +6,7 @@
 
 Monacaを用いて作ったアプリとmobile backendを連携して、ログイン機能を実装するサンプルコードとなります。
 * HTML/CSS/JavaScriptでマルチプラットフォーム（iOS/Android/Windowsなど）にアプリを開発できる統合開発環境[Monaca](https://ja.monaca.io/)
-* スマホアプリのサーバ側機能（プッシュ通知、会員管理、DBなど）をサーバ開発不要で実装できる[NIFTY Cloud mobile backend](http://mb.cloud.nifty.com/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
+* スマホアプリのサーバ側機能（プッシュ通知、会員管理、DBなど）をサーバ開発不要で実装できる[NIFCloud mobile backend](https://mbaas.nifcloud.com/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
 
 ![overview](readme-img/overview.JPG "概要図")
 
@@ -36,7 +36,7 @@ MonacaでgithubのURL（　https://github.com/ncmbadmin/monaca_login_template/ar
 ## Requirement
 
 * Monaca環境
-* ニフティクラウドmobile backendを利用するために必要なJavaScript SDKは、下記の方法で導入済みです。
+* ニフクラ mobile backendを利用するために必要なJavaScript SDKは、下記の方法で導入済みです。
   - Monaca 画面上部にある「設定」＞「JS/CSSコンポーネント追加と削除」をクリック
   - 「ncmb」を入力して｢検索｣ボタンを押す
   - 「追加｣ボタンを押す
@@ -44,7 +44,7 @@ MonacaでgithubのURL（　https://github.com/ncmbadmin/monaca_login_template/ar
   -  ローダーの設定は｢components/ncmb/min.js｣にチェックし｢OK｣ボタンを押す
   -  "JS/CSSコンポーネントをプロジェクトに追加しました。" 確認の｢OK｣ボタンを押す
 
-※ 詳細は[イントロダクション (Monaca) : クイックスタート](http://mb.cloud.nifty.com/doc/current/introduction/quickstart_monaca.html)をご参照ください
+※ 詳細は[イントロダクション (Monaca) : クイックスタート](https://mbaas.nifcloud.com/doc/current/introduction/quickstart_monaca.html)をご参照ください
 
 ## Installation
 
@@ -59,7 +59,7 @@ MonacaでgithubのURL（　https://github.com/ncmbadmin/monaca_login_template/ar
 
 * mobile backendでアプリ作成する
   - mobile backend 利用登録
-    [NIFTY Cloud mobile backend](http://mb.cloud.nifty.com/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
+    [NIFCloud mobile backend](https://mbaas.nifcloud.com/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
 ![register](readme-img/register.JPG "登録画面")
   - mobile backendでアプリ作成する
 ![newapp](readme-img/newapp.JPG "新規アプリ作成")
@@ -166,10 +166,10 @@ $.mobile.changePage('#LoginPage');
 データ保存・データ検索・会員管理・プッシュ通知などの機能を実装したい場合には、
 以下のドキュメントもご参考ください。
 
-* [ドキュメント](http://mb.cloud.nifty.com/doc/current/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
-* [ドキュメント・データストア](http://mb.cloud.nifty.com/doc/current/sdkguide/javascript/datastore.html?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
-* [ドキュメント・会員管理](http://mb.cloud.nifty.com/doc/current/sdkguide/javascript/user.html?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
-* [ドキュメント・プッシュ通知](http://mb.cloud.nifty.com/doc/current/sdkguide/javascript/push.html?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
+* [ドキュメント](https://mbaas.nifcloud.com/doc/current/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
+* [ドキュメント・データストア](https://mbaas.nifcloud.com/doc/current/sdkguide/javascript/datastore.html?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
+* [ドキュメント・会員管理](https://mbaas.nifcloud.com/doc/current/sdkguide/javascript/user.html?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
+* [ドキュメント・プッシュ通知](https://mbaas.nifcloud.com/doc/current/sdkguide/javascript/push.html?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
 
 ## Contributing
 
@@ -182,4 +182,4 @@ $.mobile.changePage('#LoginPage');
 ## License
 
 * MITライセンス
-* NIFTY Cloud mobile backendのJavascript SDKのライセンス
+* NIFCloud mobile backendのJavascript SDKのライセンス
